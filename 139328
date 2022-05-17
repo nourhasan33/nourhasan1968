@@ -1,0 +1,14 @@
+n=int(input("Please enter a decimal number:  "))
+b=[]
+if n==0:
+    print(n)
+else:
+    while (n!=0):
+        recent=n%2
+        b.append(recent)
+        n=n//2
+b.reverse()
+for x in range(0,len(b)):
+    b[x]=int (b[x])
+    print(b[x],end="")
+            

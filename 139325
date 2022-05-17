@@ -1,0 +1,10 @@
+l=["Nour","Reham","Marah","Hasan","Ahmad","Ali"]
+a=input("Enter your name if you are a graduate student: ")
+n=0
+for l[n] in l:
+    if a==l[n]:
+      print("Yes",a,"is a graduate student")
+      break
+    else:
+      print("no there in the list")
+n=n+1
